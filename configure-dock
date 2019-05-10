@@ -5,5 +5,5 @@ $DOCKUTIL --add /Applications/Launchpad.app --allhomes
 $DOCKUTIL --add /Applications/Managed\ Software\ Center.app --allhomes
 $DOCKUTIL --add /Applications/Google\ Chrome.app --allhomes
 $DOCKUTIL --add /Applications/System\ Preferences.app --allhomes
-$DOCKUTIl --add ~/Downloads --allhomes
+$DOCKUTIL --add ~/Downloads --allhomes
 exit 0
