@@ -3,11 +3,11 @@
 munkipkg --create configure-dock-install
 
 INSTALL_DIR=configure-dock-install
-SCRIPTS_DIR=$INSTALL_DIR/scripts/postinall
+SCRIPTS_DEST=$INSTALL_DIR/scripts/postinstall
 PAYLOAD_DIR=$INSTALL_DIR/payload/usr/local/bin
 # mkdir -p $PAYLOAD_DIR
 
-cp configure-dock $SCRIPTS_DIR/
+cp configure-dock $SCRIPTS_DEST
 cd $INSTALL_DIR
 sed -i ".plist" "s/com.github.munki/org.mirman/" build-info.plist
 sed -i ".plist" "s/<string>1.0/<string>$(cat ../version)/" build-info.plist
