@@ -1,7 +1,9 @@
 #!/bin/bash
-dockutil --remove all --allhomes
-dockutil --add /Applications/Launchpad.app --allhomes
-dockutil --add /Applications/Managed\ Software\ Center.app --allhomes
-dockutil --add /Applications/Google\ Chrome.app --allhomes
-dockutil --add /Applications/System\ Preferences.app --allhomes
+DOCKUTIL=$/usr/local/bin/dockutil
+$DOCKUTIL --remove all --allhomes
+$DOCKUTIL --add /Applications/Launchpad.app --allhomes
+$DOCKUTIL --add /Applications/Managed\ Software\ Center.app --allhomes
+$DOCKUTIL --add /Applications/Google\ Chrome.app --allhomes
+$DOCKUTIL --add /Applications/System\ Preferences.app --allhomes
+$DOCKUTIl --add ~/Downloads --allhomes
 exit 0
