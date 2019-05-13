@@ -1,5 +1,5 @@
 #!/bin/bash
-DOCKUTIL=$/usr/local/bin/dockutil
+DOCKUTIL=/usr/local/bin/dockutil
 $DOCKUTIL --remove all --allhomes
 $DOCKUTIL --add /Applications/Launchpad.app --allhomes
 $DOCKUTIL --add /Applications/Managed\ Software\ Center.app --allhomes
